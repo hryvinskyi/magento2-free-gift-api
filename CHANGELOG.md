@@ -5,6 +5,13 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-11-27
+
+### Added
+- `PastGiftMarkInterface`: finds the mark of a past gift in a request to add a product (`ruleIdIn(array $buyRequest)`
+  gives the rule that gave the gift, or `null`). A cart refuses a request in which any registered mark finds one.
+- `GiftsEnabledInterface`: tells whether a store view gives free gifts at all (`inStore($storeId)`).
+
 ## [1.0.0] - 2026-11-27
 
 ### Added

@@ -1,8 +1,8 @@
 {
     "name": "hryvinskyi/magento2-free-gift-api",
-    "description": "Published contracts of the free gift modules: the cart price rule action that gives gifts for every step of spending, the gift SKUs of a rule, the gift lines of a cart and the gift state stored on a cart.",
+    "description": "Published contracts of the free gift modules: the cart price rule action that gives gifts for every step of spending, the gift SKUs of a rule, the gift lines of a cart, the gift state stored on a cart, the marks of past gifts and whether a store view gives gifts.",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "authors": [
         {
